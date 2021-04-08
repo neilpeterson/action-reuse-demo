@@ -25,7 +25,7 @@ az group create --name hub-spoke --location eastus
 
 **Basic deployment**
 
-Run the following command to initiate the deployment. If you would like to also deploy this sample with virtual machines and / or an Azure VPN gateway, see the `az deployment group create` examples found later in this document.
+Run the following command to initiate the deployment. If you would like to deploy this sample with virtual machines and / or an Azure VPN gateway, see the `az deployment group create` examples found later in this document.
 
 ```azurecli-interactive
 az deployment group create \
@@ -69,7 +69,7 @@ az deployment group create \
 | spokeTwoNetwork | object | Network configuration for the second spoke virtual network. | [see template] |
 | vpnGateway | object | Network configuration for the vpn gateway. | [see template] |
 | bastionHost | object | Configuration for the Bastion host. | [see template] |
-| azureFirewall | object | Network configuration for the firewall instance. | [see template] |
+| azureFirewall | object | Network configuration for the Azure Firewall instance. | [see template] |
 | location | string | Deployment location. | resourceGroup().location | 
 
 ## Diagnostic configurations
