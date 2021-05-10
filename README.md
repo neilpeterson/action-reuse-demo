@@ -4,7 +4,7 @@
 
 This sample deploys an empty web app, two web app slots, web app metric alerts, and autoscale rules. A SQL database is also deployed, the connection string stored in Azure Key Vault, and configured on the web application.
 
-Where applicable, each resource is configured to send diagnostics and metrics to an Azure Log Analytics workspace.
+Where applicable, each resource is configured to send diagnostics and metrics to an Azure Log Analytics workspace. This data can be used for monitoring and alerting.
 
 For detailed information, see the Basic web application reference architecture:
 
