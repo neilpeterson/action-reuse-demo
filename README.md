@@ -2,7 +2,7 @@
 
 [![Build Status](https://nepeters-devops.visualstudio.com/arm-template-validation-pipelines/_apis/build/status/basic-web-app?branchName=master)](https://nepeters-devops.visualstudio.com/arm-template-validation-pipelines/_build/latest?definitionId=131&branchName=master)
 
-This sample deploys an empty web app, two web app slots, web app metric alerts, and autoscale rules. A SQL database is also deployed, the connection string stored in Azure Key Vault, and configured on the web application.
+This sample deploys an web app, two slots, web app metric alerts, and autoscale rules. A SQL database is also deployed, the connection string stored in Azure Key Vault, and configured on the web application.
 
 Where applicable, each resource is configured to send diagnostics and metrics to an Azure Log Analytics workspace.
 
@@ -46,7 +46,7 @@ The following resources are configured to send diagnostic logs, and metric data 
 - SQL instance
 - Key Vault
 - App Service instance
-- Web app and all slots
+- Some other service
 
 ## Code of conduct
 

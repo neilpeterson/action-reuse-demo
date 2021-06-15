@@ -37,22 +37,11 @@ az deployment group create \
 
 Run the following command to initiate the deployment with a Linux VM deployed to the first spoke network.
 
-```azurecli-interactive
+```bash
 az deployment group create \
     --resource-group hub-spoke \
     --template-uri https://raw.githubusercontent.com/mspnp/samples/master/solutions/azure-hub-spoke/azuredeploy.json \
     --parameters adminPassword=Password2020! linuxVMCount=1 windowsVMCount=1
-```
-
-**Deploy with VPN gateway**
-
-Run the following command to initiate the deployment with a Linux VM deployed to the first spoke network and a virtual network gateway deployed into the hub virtual network.
-
-```azurecli-interactive
-az deployment group create \
-    --resource-group hub-spoke \
-    --template-uri https://raw.githubusercontent.com/mspnp/samples/master/solutions/azure-hub-spoke/azuredeploy.json \
-    --parameters adminPassword=Password2020! linuxVMCount=1 windowsVMCount=1 deployVpnGateway=true
 ```
 
 ## Solution deployment parameters
